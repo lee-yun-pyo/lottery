@@ -17,7 +17,10 @@ function click() {
       break;
     }
   }
-
+  arr.sort((a, b) => {
+    if (a > b) return 1;
+    else return -1;
+  });
   p.innerText = `${arr[0]},   ${arr[1]},  ${arr[2]},   ${arr[3]},   ${arr[4]},   ${arr[5]}`;
 }
 
