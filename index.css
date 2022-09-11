@@ -58,3 +58,14 @@ p:last-child {
     margin-top: 0;
     font-size: 20px;
 }
+
+#oddDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#oddP {
+    margin: 0;
+}
